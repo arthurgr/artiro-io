@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Dark mode btn */
+input:checked ~ .dot {
+  transform: translateX(100%);
+}
